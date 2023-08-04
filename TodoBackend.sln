@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{9FF01305-D693-4133-844E-97ABBE99A085}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoBackend.Application", "Core\TodoBackend.Application\TodoBackend.Application.csproj", "{BD4ACE13-37CA-4BA0-B336-C208E094DA8E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoBackend.Domain", "Core\TodoBackend.Domain\TodoBackend.Domain.csproj", "{317A4143-F61C-4E04-9AE3-31AA130D8BB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{78277E14-D51B-4751-9482-A17F8660FB9D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoBackend.Infrastructure", "Infrastructure\TodoBackend.Infrastructure\TodoBackend.Infrastructure.csproj", "{D5A88FCB-1ACA-4C7E-926B-D6667C11B075}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoBackend.Persistence", "Infrastructure\TodoBackend.Persistence\TodoBackend.Persistence.csproj", "{EB49B5C7-B719-4CEA-9A35-A46D9CDA3C51}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{F3E2D818-A1E1-4231-81C3-8D5883CD116C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoBackend.API", "Presentation\TodoBackend.API\TodoBackend.API.csproj", "{42C35A17-D46C-40BE-A807-70F333C369B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD4ACE13-37CA-4BA0-B336-C208E094DA8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD4ACE13-37CA-4BA0-B336-C208E094DA8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD4ACE13-37CA-4BA0-B336-C208E094DA8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD4ACE13-37CA-4BA0-B336-C208E094DA8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{317A4143-F61C-4E04-9AE3-31AA130D8BB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{317A4143-F61C-4E04-9AE3-31AA130D8BB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{317A4143-F61C-4E04-9AE3-31AA130D8BB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{317A4143-F61C-4E04-9AE3-31AA130D8BB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5A88FCB-1ACA-4C7E-926B-D6667C11B075}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5A88FCB-1ACA-4C7E-926B-D6667C11B075}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5A88FCB-1ACA-4C7E-926B-D6667C11B075}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5A88FCB-1ACA-4C7E-926B-D6667C11B075}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB49B5C7-B719-4CEA-9A35-A46D9CDA3C51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB49B5C7-B719-4CEA-9A35-A46D9CDA3C51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB49B5C7-B719-4CEA-9A35-A46D9CDA3C51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB49B5C7-B719-4CEA-9A35-A46D9CDA3C51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42C35A17-D46C-40BE-A807-70F333C369B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42C35A17-D46C-40BE-A807-70F333C369B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42C35A17-D46C-40BE-A807-70F333C369B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42C35A17-D46C-40BE-A807-70F333C369B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BD4ACE13-37CA-4BA0-B336-C208E094DA8E} = {9FF01305-D693-4133-844E-97ABBE99A085}
+		{317A4143-F61C-4E04-9AE3-31AA130D8BB6} = {9FF01305-D693-4133-844E-97ABBE99A085}
+		{D5A88FCB-1ACA-4C7E-926B-D6667C11B075} = {78277E14-D51B-4751-9482-A17F8660FB9D}
+		{EB49B5C7-B719-4CEA-9A35-A46D9CDA3C51} = {78277E14-D51B-4751-9482-A17F8660FB9D}
+		{42C35A17-D46C-40BE-A807-70F333C369B3} = {F3E2D818-A1E1-4231-81C3-8D5883CD116C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AFE2B70F-71CC-4C8C-A47F-8814B6F56B7E}
+	EndGlobalSection
+EndGlobal
